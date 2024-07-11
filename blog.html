@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: lightcyan;
+            height: 70px;
+            /* position: fixed; */
+        }
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            padding: 5px 15px;
+        }
+        li:hover{
+            background-color: aliceblue;
+        }
+        a{
+            text-decoration: none;
+            color: gray;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        main{
+            height: 800px;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+        }
+        footer{
+            background-color: azure;
+            color: salmon;
+        }
+        img{
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="log">
+            <a href="index.html"> LoGO</a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="github.html">Github</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <ul>
+                <li><a href="#">아이콘</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <img src="../images/landscape.jpg" height="500">
+            <ul>
+            <div class="postList">
+                <li><span id="title">제목</span><p id="subtitle">간략히 내용을 보일것</p></li>
+                <li><span id="title">제목</span><p id="subtitle">간략히 내용을 보일것</p></li>
+                <li><span id="title">제목</span><p id="subtitle">간략히 내용을 보일것</p></li>
+                <li><span id="title">제목</span><p id="subtitle">간략히 내용을 보일것</p></li>
+            </div>
+            </ul>
+    </main>
+    <footer> 하단 부분 </footer>
+</body>
+</html>
